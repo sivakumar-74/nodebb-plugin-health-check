@@ -1,8 +1,8 @@
 {
-  "name": "nodebb-plugin-quickstart",
-  "version": "0.4.3",
-  "description": "A starter kit for quickly creating NodeBB plugins",
-  "main": "library.js",
+  "name": "nodebb-plugin-health-check",
+  "version": "1.0.0",
+  "description": "A plugin to provide health check endpoints for NodeBB",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/sivakumar-74/nodebb-plugin-health-check"
@@ -12,21 +12,11 @@
     "plugin",
     "health-check"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
+  "author": "Sivakumar S <s.sivakumar@meyicloud.com>",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodebb/nodebb-plugin-quickstart/issues"
+    "url": "https://github.com/sivakumar-74/nodebb-plugin-health-check/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
