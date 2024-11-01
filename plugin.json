@@ -1,0 +1,16 @@
+{
+    "id": "nodebb-plugin-health-check",
+    "name": "NodeBB Health Check",
+    "description": "A plugin to provide health check endpoints for NodeBB",
+    "url": "https://github.com/sivakumar-74/nodebb-plugin-health-check",
+    "hooks": [
+        { "hook": "static:app.load", "method": "init" },
+        { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+        { "hook": "action:plugin.activate", "method": "activate" },
+        { "hook": "action:plugin.deactivate", "method": "deactivate" }
+    ],
+    "staticDirs": {},
+    "less": [],
+    "scripts": [],
+    "templates": "templates"
+}
